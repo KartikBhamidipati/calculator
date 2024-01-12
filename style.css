@@ -1,0 +1,51 @@
+.screen{
+    background-color: black;
+    height: 40px;
+    width: 265px;
+    border-radius: 10px;
+    color: white;
+    margin:15px 15px 0px 15px;
+    padding: 0;
+    border: 0;
+}
+#main{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color:  lightgray;
+}
+#buttons{
+    height: 210px;
+    width: 267px;
+    margin: 15px 15px;
+    border-radius: 10px;
+}
+button{
+    height: 40px;
+    width: 55px;
+    border: 1px solid black;
+    background-color: black;
+    margin: 2px 2px;
+    border-radius: 10px;
+    color: white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.r{
+    width: 88px;
+    margin-right: 0;
+}
+button:hover{
+    background-color: white;
+    color: red;
+    box-shadow: 2px 2px black;
+}
+button:active{
+    background-color: black;
+    color: white;
+    box-shadow: none;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}

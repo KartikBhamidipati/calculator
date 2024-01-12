@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="utility.css">
+    </head>
+    <body class="ctr">
+        <h1>A SIMPLE CALCULATOR!</h1>
+        <div id="main" class="ctr">
+            <input type="text" class="ctr screen" id="res" disabled>
+            <div id="buttons" class="ctr">
+                <div id="button" class="ctr">
+                    <div class="row"><button onclick="allClear()">AC</button><button onclick="clr()">C</button><button onclick="solve('%')">%</button><button class="r" onclick="allClear()">OFF</button></div>
+                    <div class="row"><button onclick="solve('1')">1</button><button onclick="solve('2')">2</button><button onclick="solve('3')">3</button><button class="r" onclick="solve('+')">+</button></div>
+                    <div class="row"><button onclick="solve('4')">4</button><button onclick="solve('5')">5</button><button onclick="solve('6')">6</button><button class="r" onclick="solve('-')">-</button></div>
+                    <div class="row"><button onclick="solve('7')">7</button><button onclick="solve('8')">8</button><button onclick="solve('9')">9</button><button class="r" onclick="solve('/')">/</button></div>
+                    <div class="row"><button onclick="solve('.')">.</button><button onclick="solve('0')">0</button><button onclick="solve('*')">x</button><button class="r" onclick="ans()">=</button></div>   
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
